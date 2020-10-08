@@ -21,12 +21,12 @@ public class QuizSetup implements ActionListener
 	static JCheckBox A, B, C, D;
 	QuizSetup()
 	{
+		//Panel - 1
 		frame1 = new JFrame("Quiz Setup");
 		frame1.setBounds(600,150,750,800);
 		frame1.setLayout(null);
 		frame1.setDefaultCloseOperation(frame1.EXIT_ON_CLOSE);
 		
-		//Panel - 1
 		jp1 = new JPanel();
 		jp1.setBounds(0,0,750,800);
 		jp1.setBackground(Color.DARK_GRAY);
